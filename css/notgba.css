@@ -1,0 +1,258 @@
+body {
+    margin-top: 0px;
+    background:#1A1A1A;
+}
+
+/* Components */
+
+#main {
+    width: 100%;
+    height: 300px;
+    max-height: 300px;
+    background-color:#000;
+    position:relative;
+}
+
+#main #init{
+    text-transform:uppercase;
+    font-size:12px;
+    font-weight:bold;
+    position:absolute;
+    top:0;
+    left:0;
+    text-align:center;
+    width:100%;
+}
+
+#main #init input{
+    margin:0 auto;
+}
+
+.panel{
+    margin-bottom:2px !important;
+    background-color:#1A1A1A !important;
+    border-color:#1A1A1A !important;
+}
+
+.controls {
+    height: 200px;
+}
+.cont {
+    margin-bottom: 0px;
+    -webkit-border-top-right-radius: 0px;
+    -webkit-border-top-left-radius: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-topleft: 0px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    padding-bottom:26px;
+    box-shadow:         inset 0 0 10px #333;
+}
+
+/* Misc Colors */
+
+.btn-default {
+    color: #666666;
+}
+
+li.purple a{
+    color: #3e3267;
+}
+li.red a{
+    color: #f3001b;
+}
+li.yellow a{
+    color: #ffb70d;
+}
+li.green a{
+    color: #8ed417;
+}
+
+ul.colorlist li a:hover{
+    color:#CCC;
+}
+
+/* Console Colors */
+
+/**** Purple ****/
+
+div.purple div.cont{
+    background: #3e3267;
+    border-color: #322851;
+}
+div.purple div.panel-body{
+    background: #524386;
+}
+
+/**** Red ****/
+
+div.red div.cont{
+    background: #bd061b;
+    border-color: #9f0012;
+}
+div.red div.panel-body{
+    background: #f3001b;
+}
+
+/**** Yellow ****/
+
+div.yellow div.cont{
+    background: #c98e00;
+    border-color: #b07c00;
+}
+div.yellow div.panel-body{
+    background: #ffb70d;
+}
+
+/**** Green ****/
+
+div.green div.cont{
+    background: #6da906;
+    border-color: #4d7608;
+}
+div.green div.panel-body{
+    background: #81c907;
+}
+
+
+/* Directional Buttons */
+
+.btn-direction{
+    border:none;
+    padding: 10px 16px !important;
+}
+
+.up{
+    -webkit-border-bottom-right-radius: 0px;
+    -webkit-border-bottom-left-radius: 0px;
+    -moz-border-radius-bottomright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top: 1px solid rgba(0,0,0,0.3);
+    border-top-width: 3px;
+}
+
+.down{
+    -webkit-border-top-right-radius: 0px;
+    -webkit-border-top-left-radius: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-topleft: 0px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top:0px !important;
+    box-shadow: 2px 2px 7px rgba(0,0,0,.2);
+    border: 1px solid rgba(0,0,0,0.3);
+    border-bottom-width: 3px;
+}
+
+.left{
+    box-shadow: 2px 2px 7px rgba(0,0,0,.2);
+    border-left: 1px solid rgba(0,0,0,0.3);
+    border-left-width: 3px;
+}
+
+.right{
+    box-shadow: 5px 2px 7px rgba(0,0,0,.2);
+    border-right: 1px solid rgba(0,0,0,0.3);
+    border-right-width: 3px; 
+}
+
+.center:hover{
+background-color: #fff !important;
+}
+
+/* Circle Button */
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+    box-shadow: 2px 2px 7px rgba(0,0,0,.2);
+    color: #666;
+    font-weight: bold;
+    background-color: #eee !important;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-bottom-width: 3px;
+}
+.btn-circle.btn-lg {
+    width: 50px;
+    height: 50px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 25px;
+}
+
+span.select a,
+span.start a{
+    color: #F1F1F1;
+}
+span.select a:hover,
+span.start a:hover{
+    color: #666666;
+}
+small {
+    color: #1A1A1A;
+}
+
+/* Banner */
+
+.banner{
+    width:100px;
+    height:auto;
+    background:#1A1A1A;
+    position:absolute;
+    top:0;
+    left:50%;
+    padding:4px 0 6px 0;
+    margin-left:-50px;
+    margin-top:-1px;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.banner span{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight:700;
+}
+
+/* File Input */
+
+.inputWrapper {
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    background-color: #F1F1F1;
+    margin: 0 auto;
+}
+.fileInput {
+    cursor: pointer;
+    height: 100%;
+    position:absolute;
+    top: 0;
+    right: 0;
+    z-index: 99;
+    /*This makes the button huge. If you want a bigger button, increase the font size*/
+    font-size:50px;
+    /*Opacity settings for all browsers*/
+    opacity: 0;
+    -moz-opacity: 0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0)
+}
+
+#play:hover,#pause:hover,#restart:hover{
+    cursor:pointer;
+}
+
+ul#menu_top{
+    opacity:0 !important;
+}
